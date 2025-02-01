@@ -1,62 +1,73 @@
+🌍 [Leia em Português](README.pt-BR.md)
+
 # Palindrometro
 
-O **Palindrometro** é uma aplicação GUI desenvolvida com `customtkinter` que permite verificar se uma palavra é um palíndromo. Um palíndromo é uma palavra que se lê da mesma forma de trás para frente, como "radar" ou "level".
+The **Palindrometer** is a software with an interface developed with `customtkinter` that allows you to check if a word is a palindrome. A palindrome is a word that reads the same way from back to front, such as "radar" or "level".
 
-## Funcionalidades
+## Features
 
-- **Verificação de Palíndromos:** Insira uma palavra e clique no botão "Verificar" para saber se é um palíndromo.
-- **Interface Simples:** Design moderno e fácil de usar com `customtkinter`.
-- **Resultado Instantâneo:** Mostra o resultado da verificação diretamente na tela.
+- `Palindrome Check` - Enter a word and click the "Check" button to find out if it is a palindrome.
+- `Interface Simple` - Modern and easy-to-use design with `customtkinter`.
+- `Instant Result` - Shows the scan result directly on the screen.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Python:** Linguagem de programação utilizada para o desenvolvimento.
-- **customtkinter:** Biblioteca para criar interfaces gráficas modernas e customizáveis.
+- `Customtkinter` - Library to create modern and customizable graphical interfaces.
+- `Python` - Programming language used for development.
+- `pytest` - Testing.
 
-## Como usar
+## Steps to install and run the application
 
-1. Clone o repositório para o seu computador:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/felipeclarindo/palindrometro.git
 ```
 
-2. Navegue até o diretório do projeto:
+2. Enter directory:
 
 ```bash
 cd palindrometro
 ```
 
-3. Instale as dependencias:
+3. Create `Virtual Environment`:
+
+```bash
+python -m venv .venv
+```
+
+4. Activate the `Virtual Environment` running the file `.bat` in `.venv/Scripts/activate.bat`.
+
+5. Install dependencies:
 
 ```bash
 pip install requirements.txt
 ```
 
-4. Execute a Aplicação:
+6. Run the application:
 
 ```bash
 python ./main.py
 ```
 
-5. Interaja com a Aplicação
+7. Interact with the Application
 
-- Abra a aplicação e insira uma palavra no campo de entrada.
-- Clique no botão "Verificar" para ver se a palavra é um palíndromo.
-- O resultado será exibido logo abaixo do botão.
+- Open the application and enter a word in the input field.
+- Click the "Check" button to see if the word is a palindrome.
+- The result will be displayed just below the button.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-## Autor
+## Author
 
 **Felipe Clarindo**
 
-- [LinkedIn](https://www.linkedin.com/in/felipeclarindo/)
+- [LinkedIn](https://www.linkedin.com/in/felipeclarindo)
 - [Instagram](https://www.instagram.com/lipethecoder)
 - [GitHub](https://github.com/felipeclarindo)
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
+This project is licensed under the [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
